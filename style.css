@@ -1,8 +1,4 @@
-/*-----------------------------------------------------------------------------------
-	    Blocs_site_onePage 2
-        Built with Blocs
------------------------------------------------------------------------------------*/
- 
+
 body{
 	margin:0;
 	padding:0;
@@ -15,8 +11,7 @@ body{
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
-/* = Blocs
--------------------------------------------------------------- */
+
 
 .bloc{
 	width:100%;
@@ -44,18 +39,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-md{
 	padding:50px;
 }
-
-
-/* Background Styles */
-
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
-}
-.bg-r-edge{
-	background: right no-repeat;
+.bloc-sm{
+	padding:20px 50px;
 }
 
 
@@ -261,7 +246,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-style{
 	width:100%;
-	height:20px;
+	height:96px;
 }
 .p-style{
 	width:100%;
@@ -353,6 +338,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container-div-8891-style{
 	height:51px;
 }
+.h3-style{
+	width:100%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -368,17 +356,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 
 
-/* = Mobile adjustments 
+/* = Mobile adjustments
 -------------------------------------------------------------- */
 @media (max-width: 1024px)
 {
     .bloc{
-        padding-left: 20px; 
-        padding-right: 20px;  
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
-        padding-left: 0; 
-        padding-right: 0;  
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media (max-width: 991px)
@@ -401,7 +389,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         padding:0 10px;
     }
     .btn-dwn{
-       display:none; 
+       display:none;
     }
     .voffset{
         margin-top:5px;
@@ -435,7 +423,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.mt-md-4{
 	}
-	
+	.container-div-style{
+		height:157px;
+	}
+
+}
+
+@media (max-width: 767px){
+	.h5-javascript-style{
+		width:100%;
+	}
+
 }
 
 @media (max-width: 575px){
@@ -444,6 +442,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.mt-1{
 	}
-	
+	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+		;
+	}
+
 }
 
