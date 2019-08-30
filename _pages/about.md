@@ -46,8 +46,6 @@ ___
 
 <img src="{{site.baseurl}}/images/pages/profile.jpg">
 
-[PDF version of my CV]({{site.baseurl}}/files/CV.pdf)
-
 [You can view some of my projects here]({{site.baseurl}}/projects)
 
 
