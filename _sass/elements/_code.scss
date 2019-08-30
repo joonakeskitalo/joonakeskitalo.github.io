@@ -1,0 +1,28 @@
+/*------------------------------------*\
+  Elements > code & pre
+\*------------------------------------*/
+
+pre,
+code {
+  font-family: $font-monospace;
+  background-color: $bg-color-gray;
+  font-size: $font-size-small;
+  word-wrap: normal;
+  white-space: pre;
+  overflow: auto;
+  word-break: keep-all;
+}
+
+pre {
+  padding: $base-spacing-unit;
+  margin-bottom: $base-spacing-unit;
+  font-size: $font-size-small;
+  line-height: $line-height-small;
+  word-wrap: normal;
+  white-space: pre;
+  overflow: auto;
+  word-break: keep-all;
+}
+
+li code,
+p code { padding: quarter($base-spacing-unit) half($base-spacing-unit); }

@@ -1,0 +1,45 @@
+title:       "Joona Keskitalo's Blog & Personal Page"
+email:       'joona.keskitalo@gmail.com'
+description: "Joona Keskitalo's Blog & Personal Page"
+# baseurl:     ''
+url:         'https://joonakeskitalo.github.io'
+twitter:     'https://twitter.com/joonikko'
+github:      'https://github.com/joonakeskitalo'
+instagram:   'http://instagram.com/joonikko'
+linkedin:    'https://www.linkedin.com/in/joona-keskitalo/'
+
+excerpt_separator: '<!--more-->'
+markdown:  kramdown
+permalink: pretty
+paginate:  40
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll/tagging
+  - jekyll-redirect-from
+#  - jekyll-seo-tag
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+
+    values:
+      permalink: /:basename:output_ext
