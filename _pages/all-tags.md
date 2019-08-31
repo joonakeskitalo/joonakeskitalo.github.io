@@ -15,7 +15,7 @@ title: Tags
   
   <div class="tags-expo-section">
     {% for tag in site.tags %}
-    <h4 id="{{ tag[0] | slugify }}">{{ tag | first }}</h4>
+    <h2 id="{{ tag[0] | slugify }}">{{ tag | first }}</h2>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">

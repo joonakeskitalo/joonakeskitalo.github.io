@@ -18,8 +18,8 @@ sass:
 
 plugins:
   - jekyll-paginate
+  - jekyll/tagging
   - jekyll-redirect-from
-#  - jekyll/tagging
 #  - jekyll-seo-tag
 
 include:

@@ -2,7 +2,7 @@
 layout: post
 title: Setting up fullstack environment in a VM and editing on host
 featured: false
-tags: Fullstack
+tags: [Fullstack]
 ---
 
 

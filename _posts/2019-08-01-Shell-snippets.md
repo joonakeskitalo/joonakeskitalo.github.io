@@ -2,7 +2,7 @@
 layout: post
 title: Shell snippets
 featured: false
-tags: shell
+tags: [shell]
 ---
 
 <!--more-->
