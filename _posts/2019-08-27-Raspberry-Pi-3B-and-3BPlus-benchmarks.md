@@ -2,7 +2,7 @@
 layout: post
 title: "Raspberry Pi 3B and 3B+ benchmarks & power usage"
 featured: false
-tags: [Raspberry, Pi]
+tags: Raspberry Pi
 ---
 
 
