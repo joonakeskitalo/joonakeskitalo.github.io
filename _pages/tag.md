@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Tags
+redirect_from: 
+- /tags/
 ---
 
 <br/>
