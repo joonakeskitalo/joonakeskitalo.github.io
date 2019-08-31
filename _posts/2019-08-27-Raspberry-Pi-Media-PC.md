@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Raspberry Pi 3B ja 3B+ Media PC:nä
+title: "Raspberry Pi 3B ja 3B+ Media PC:nä"
 featured: false
 tags: [Raspberry, Pi]
 image: '/images/posts/Raspberry-media-pc.jpg'
