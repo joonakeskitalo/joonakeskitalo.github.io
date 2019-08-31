@@ -1,6 +1,9 @@
+_site/
+_site/*
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 
-_site/*
-!_site/tag
+
+
+

@@ -1,13 +1,11 @@
 {% for page in site.pages %}
-  {% unless page.name == '404.md' %}
-    {% unless page.name == '403.md' %}
-    {% if page.title %}
-      <li class='c-nav__item' role='presentation'>
-        <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
-      </li>
-    {% endif %}
-      {% endunless %}
-  {% endunless %}
+	{% unless page.exclude %}
+		{% if page.title %}
+		  <li class='c-nav__item' role='presentation'>
+			<a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
+		  </li>
+		{% endif %}
+	{% endunless %}
 {% endfor %}
 
 <li class='c-nav__item' role='presentation'>

@@ -2,7 +2,7 @@
 layout: post
 title: "Networks: Topologies"
 featured: false
-tags: [Networks]
+tags: Networks
 ---
 
 This post covers the most common network topologies, their advantages and disadvantes.
