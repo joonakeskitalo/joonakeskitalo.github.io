@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RSS-lukijat
-featured: true
+featured: false
 ---
 
 **Mikä on RSS?**  
