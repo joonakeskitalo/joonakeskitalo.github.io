@@ -8,6 +8,3 @@ function showOverlay() {
 function hideOverlay() {
 	document.getElementById("overlay").className = "js-off-canvas-container c-off-canvas-container";
 }
-
-
-

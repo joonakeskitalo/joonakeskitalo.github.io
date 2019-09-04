@@ -5,7 +5,7 @@ layout: default
 {% include base_path %}
 
 {% if page.image %}
-  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
+<meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
 {% endif %}
 
 <div class='o-wrapper'>
@@ -16,20 +16,21 @@ layout: default
 
         <h1 class='c-post__title'>{{ page.title }}</h1>
 
-        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
+        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}'
+          itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
 
         <div class='c-content' itemprop='articleBody'>
           {% include page-image.html %}
 
           {{ content }}
         </div>
-        
-		<div class='c-tags'>
-		  {% for tag in page.tags %}
-			{% capture tag_name %}{{ tag }}{% endcapture %}
-			<a href="/tag/{{ tag_name }}">{{ tag_name }}&nbsp;</a>
-		  {% endfor %}
-		</div>
+
+        <div class='c-tags'>
+          {% for tag in page.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="/tag/{{ tag_name }}">{{ tag_name }}&nbsp;</a>
+          {% endfor %}
+        </div>
 
       </article>
 
