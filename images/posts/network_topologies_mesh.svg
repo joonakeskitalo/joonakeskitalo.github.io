@@ -1,1 +1,166 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-951 -600.5 480.5203 125.3892" width="480.52" height="125.389"><g fill="none"><title>Canvas 1</title><title>Layer 1</title><circle cx="-860.461" cy="-555.695" r="12.539" fill="#fff"/><circle cx="-860.461" cy="-555.695" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-815.988" cy="-587.461" r="12.539" fill="#fff"/><circle cx="-815.988" cy="-587.461" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-773.522" cy="-555.695" r="12.539" fill="#fff"/><circle cx="-773.522" cy="-555.695" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-815.988" cy="-488.15" r="12.539" fill="#fff"/><circle cx="-815.988" cy="-488.15" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-859.458" cy="-519.247" r="12.539" fill="#fff"/><circle cx="-859.458" cy="-519.247" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-772.519" cy="-519.247" r="12.539" fill="#fff"/><circle cx="-772.519" cy="-519.247" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-850.256-562.984l24.063-17.187M-805.946-579.95l22.382 16.743M-773.177-543.16l.313 11.378M-782.72-511.95l-23.068 16.503M-849.258-511.95l23.07 16.503M-860.116-543.16l.313 11.378M-847.922-555.695h61.86M-848.874-550.893l64.768 26.844M-853.564-545.22l30.68 46.595"/><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-785.07-550.797l-62.84 26.652"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-780.198-545.077l-29.115 46.31"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-785.058-519.247h-61.86"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-779.26-529.824l-29.988-47.06"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-822.728-576.884l-29.99 47.06"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-815.988-500.69v-74.232"/></g><g><text transform="translate(-951 -547.03)" fill="#000"><tspan font-family="Helvetica Neue" font-size="16" font-weight="400" x=".472" y="15">Full Mesh</tspan></text></g><g><circle cx="-571.461" cy="-555.695" r="12.539" fill="#fff"/><circle cx="-571.461" cy="-555.695" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-526.988" cy="-587.461" r="12.539" fill="#fff"/><circle cx="-526.988" cy="-587.461" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-484.522" cy="-555.695" r="12.539" fill="#fff"/><circle cx="-484.522" cy="-555.695" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-526.988" cy="-488.15" r="12.539" fill="#fff"/><circle cx="-526.988" cy="-488.15" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-570.458" cy="-519.247" r="12.539" fill="#fff"/><circle cx="-570.458" cy="-519.247" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-483.519" cy="-519.247" r="12.539" fill="#fff"/><circle cx="-483.519" cy="-519.247" r="12.539" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-561.256-562.984l24.063-17.187M-516.946-579.95l22.382 16.743M-484.177-543.16l.313 11.378M-493.72-511.95l-23.068 16.503M-560.258-511.95l23.07 16.503M-571.116-543.16l.313 11.378M-564.564-545.22l30.68 46.595"/><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-496.07-550.797l-62.84 26.652"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-491.198-545.077l-29.115 46.31"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-496.058-519.247h-61.86"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-490.26-529.824l-29.988-47.06"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-533.728-576.884l-29.99 47.06"/></g><g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M-526.988-500.69v-74.232"/></g></g><g><text transform="translate(-683 -547.03)" fill="#000"><tspan font-family="Helvetica Neue" font-size="16" font-weight="400" x=".052" y="15">Partial Mesh</tspan></text></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="-951 -600.5 480.5203 125.3892" width="480.5203" height="125.3892">
+  <defs>
+    <font-face font-family="sans-serif" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="sans-serif"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.2 
+    <dc:date>2019-08-29 11:33:44 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke="none" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_171">
+        <g id="Graphic_192">
+          <circle cx="-860.4608" cy="-555.6947" r="12.5392533062774" fill="white"/>
+          <circle cx="-860.4608" cy="-555.6947" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_191">
+          <circle cx="-815.9883" cy="-587.4608" r="12.5392533062774" fill="white"/>
+          <circle cx="-815.9883" cy="-587.4608" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_190">
+          <circle cx="-773.5221" cy="-555.6947" r="12.5392533062774" fill="white"/>
+          <circle cx="-773.5221" cy="-555.6947" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_189">
+          <circle cx="-815.9883" cy="-488.15004" r="12.5392533062775" fill="white"/>
+          <circle cx="-815.9883" cy="-488.15004" r="12.5392533062775" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_188">
+          <circle cx="-859.4576" cy="-519.24734" r="12.5392533062774" fill="white"/>
+          <circle cx="-859.4576" cy="-519.24734" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_187">
+          <circle cx="-772.5189" cy="-519.24734" r="12.5392533062775" fill="white"/>
+          <circle cx="-772.5189" cy="-519.24734" r="12.5392533062775" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_186">
+          <line x1="-850.2556" y1="-562.9841" x2="-826.1935" y2="-580.17136" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_185">
+          <line x1="-805.9461" y1="-579.9489" x2="-783.5642" y2="-563.20655" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_184">
+          <line x1="-773.1771" y1="-543.1602" x2="-772.8639" y2="-531.78186" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_183">
+          <line x1="-782.7188" y1="-511.9505" x2="-805.7884" y2="-495.44686" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_182">
+          <line x1="-849.2578" y1="-511.9505" x2="-826.1881" y2="-495.44686" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_181">
+          <line x1="-860.1158" y1="-543.1602" x2="-859.8026" y2="-531.78186" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_180">
+          <line x1="-847.9215" y1="-555.6947" x2="-786.0613" y2="-555.6947" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_179">
+          <line x1="-848.874" y1="-550.8926" x2="-784.1058" y2="-524.0495" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_178">
+          <line x1="-853.5638" y1="-545.21965" x2="-822.8852" y2="-498.6251" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_177">
+          <line x1="-785.069" y1="-550.7974" x2="-847.9107" y2="-524.1447" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_176">
+          <line x1="-780.1976" y1="-545.0769" x2="-809.3127" y2="-498.76785" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_175">
+          <line x1="-785.0582" y1="-519.24734" x2="-846.9184" y2="-519.24734" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_174">
+          <line x1="-779.2591" y1="-529.8242" x2="-809.2481" y2="-576.8839" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_173">
+          <line x1="-822.7284" y1="-576.8839" x2="-852.7175" y2="-529.8242" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_172">
+          <line x1="-815.9883" y1="-500.6893" x2="-815.9883" y2="-574.9215" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Graphic_170">
+        <text transform="translate(-951 -547.0294)" fill="black">
+          <tspan font-family="sans-serif" font-size="16" font-weight="400" fill="black" x=".472" y="15">Full Mesh</tspan>
+        </text>
+      </g>
+      <g id="Group_216">
+        <g id="Graphic_215">
+          <circle cx="-571.4608" cy="-555.6947" r="12.5392533062774" fill="white"/>
+          <circle cx="-571.4608" cy="-555.6947" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_214">
+          <circle cx="-526.9883" cy="-587.4608" r="12.5392533062774" fill="white"/>
+          <circle cx="-526.9883" cy="-587.4608" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_213">
+          <circle cx="-484.5221" cy="-555.6947" r="12.5392533062774" fill="white"/>
+          <circle cx="-484.5221" cy="-555.6947" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_212">
+          <circle cx="-526.9883" cy="-488.15004" r="12.5392533062774" fill="white"/>
+          <circle cx="-526.9883" cy="-488.15004" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_211">
+          <circle cx="-570.4576" cy="-519.24734" r="12.5392533062774" fill="white"/>
+          <circle cx="-570.4576" cy="-519.24734" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_210">
+          <circle cx="-483.51894" cy="-519.24734" r="12.5392533062774" fill="white"/>
+          <circle cx="-483.51894" cy="-519.24734" r="12.5392533062774" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_209">
+          <line x1="-561.2556" y1="-562.9841" x2="-537.19346" y2="-580.17136" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_208">
+          <line x1="-516.94614" y1="-579.9489" x2="-494.5642" y2="-563.20655" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_207">
+          <line x1="-484.1771" y1="-543.1602" x2="-483.86393" y2="-531.78186" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_206">
+          <line x1="-493.7188" y1="-511.9505" x2="-516.7884" y2="-495.44686" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_205">
+          <line x1="-560.2578" y1="-511.9505" x2="-537.18814" y2="-495.44686" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_204">
+          <line x1="-571.1158" y1="-543.1602" x2="-570.8026" y2="-531.78186" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_201">
+          <line x1="-564.5638" y1="-545.21965" x2="-533.8852" y2="-498.6251" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_200">
+          <line x1="-496.069" y1="-550.7974" x2="-558.9107" y2="-524.1447" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_199">
+          <line x1="-491.19764" y1="-545.0769" x2="-520.3127" y2="-498.76785" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_198">
+          <line x1="-496.0582" y1="-519.24734" x2="-557.9184" y2="-519.24734" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_197">
+          <line x1="-490.2591" y1="-529.8242" x2="-520.24814" y2="-576.8839" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_196">
+          <line x1="-533.72843" y1="-576.8839" x2="-563.7175" y2="-529.8242" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_195">
+          <line x1="-526.9883" y1="-500.6893" x2="-526.9883" y2="-574.9215" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Graphic_193">
+        <text transform="translate(-683 -547.0294)" fill="black">
+          <tspan font-family="sans-serif" font-size="16" font-weight="400" fill="black" x=".052" y="15">Partial Mesh</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
