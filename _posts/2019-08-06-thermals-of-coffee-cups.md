@@ -25,7 +25,7 @@ I measured the thermal capacity of the cups by adding 100g of boiling water to e
 | Cup 3 | 60,0     | 50,5      | 43,1       | 38,3       | 35,3       | 32,4       | 31,4       | 
 
 **Preheated**  
-Then I tested the cups the 2nd time by first filling the cups with hot water, waiting 4 for the heat to absorb into the ceramic, pouring the water out and adding 100g of boiling water for the measurements.
+Then I tested the cups the 2nd time by first filling the cups with hot water, waiting 4 minutes for the heat to absorb into the ceramic, pouring the water out and adding 100g of boiling water for the measurements.
 
 | Cup               | 1  | 5 | 10 | 15 | 20 | 25 | 30 | 
 |-------------------|----------|-----------|------------|------------|------------|------------|------------| 
