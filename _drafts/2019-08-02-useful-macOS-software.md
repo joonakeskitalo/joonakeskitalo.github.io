@@ -6,7 +6,7 @@ tags: macOS
 
 <!--more-->
 
-- **Usability improvments**
+- **Usability improvements**
 	- [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - Macros, hotkeys, GUIs etc. 
 	- [Divvy](http://mizage.com/divvy/) - Window mover & resizer, customisable hotkeys and grid to set window size and location.
 	- [SensibleSideButtons](https://sensible-side-buttons.archagon.net) - fix mouse 5 & 4 usage on macOS.
