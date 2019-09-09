@@ -6,7 +6,7 @@ tags: Raspberry Pi
 ---
 
 
-*Excerpt from the [full post]({% post_url 2019-08-27-Raspberry-Pi-Media-PC %}) which is in finnish*
+*Excerpt from the [full post]({%- post_url 2019-08-27-Raspberry-Pi-Media-PC -%}) which is in finnish*
 <!--more-->
 
 Results from CPU stress test and video playback tests on the Raspberry Pi. The command listed below was used for the stress test, Kodi for video playback and a power meter connected between the wall socket and PSU was used to measure power usage.

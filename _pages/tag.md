@@ -9,25 +9,24 @@ redirect_from:
 
 <div class="tags-expo">
   <div class="tags-expo-list">
-    {% for tag in site.tags %}
+    {%- for tag in site.tags -%}
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
-    {% endfor %}
+    {%- endfor -%}
   </div>
   <hr/>
-  
   <div class="tags-expo-section">
-    {% for tag in site.tags %}
+    {%- for tag in site.tags -%}
     <h4 id="{{ tag[0] | slugify }}">{{ tag | first }}</h4>
     <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
+      {%- for post in tag[1] -%}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         {{ post.title }}
       <small class="post-date">{{ post.date | date_to_string }}</small>
       </li>
       </a>
-      {% endfor %}
+      {%- endfor -%}
     </ul>
-    {% endfor %}
+    {%- endfor -%}
   </div>
 </div>

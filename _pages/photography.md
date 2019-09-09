@@ -34,5 +34,3 @@ title: Photography
 <img src="{{site.baseurl}}/images/photography/img029.jpg"><br/>
 <img src="{{site.baseurl}}/images/photography/img030.jpg"><br/>
 <img src="{{site.baseurl}}/images/photography/img031.jpg"><br/>
-
-
