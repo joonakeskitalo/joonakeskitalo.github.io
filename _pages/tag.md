@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tags
-redirect_from: 
+redirect_from:
 - /tags/
 ---
 
@@ -10,7 +10,7 @@ redirect_from:
 <div class="tags-expo">
   <div class="tags-expo-list">
     {%- for tag in site.tags -%}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>&nbsp;&nbsp;
     {%- endfor -%}
   </div>
   <hr/>
