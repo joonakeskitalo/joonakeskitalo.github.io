@@ -18,7 +18,7 @@ I measured the thermal capacity of the cups by adding 100g of boiling water to e
 
 **Without preheating**
 
-| Cup   | 1  | 5 | 10 | 15 | 20 | 25 | 30 | 
+| Cup   | 1m  | 5m | 10m | 15m | 20m | 25m | 30m | 
 |-------|----------|-----------|------------|------------|------------|------------|------------| 
 | Cup 1 | 68,0     | 57,6      | 50,9       | 45,8       | 40,8       | 37,8       | 36,4       | 
 | Cup 2 | 63,0     | 54,5      | 46,3       | 41,2       | 37,8       | 34,6       | 32,8       | 
@@ -27,7 +27,7 @@ I measured the thermal capacity of the cups by adding 100g of boiling water to e
 **Preheated**  
 Then I tested the cups the 2nd time by first filling the cups with hot water, waiting 4 minutes for the heat to absorb into the ceramic, pouring the water out and adding 100g of boiling water for the measurements.
 
-| Cup               | 1  | 5 | 10 | 15 | 20 | 25 | 30 | 
+| Cup   | 1m  | 5m | 10m | 15m | 20m | 25m | 30m | 
 |-------------------|----------|-----------|------------|------------|------------|------------|------------| 
 | Cup 1 (preheated) | 75,5     | 64,5      | 54,5       | 49,5       | 43,7       | 39,1       | 36,7       | 
 | Cup 2 (preheated) | 73,7     | 61,2      | 50,6       | 45         | 39,3       | 35,9       | 33,3       | 
@@ -35,7 +35,7 @@ Then I tested the cups the 2nd time by first filling the cups with hot water, wa
 
 **Averages**
 
-| Cup                | 1  | 5 | 10 | 15 | 20 | 25 | 30 | 
+| Cup   | 1m  | 5m | 10m | 15m | 20m | 25m | 30m | 
 |--------------------|----------|-----------|------------|------------|------------|------------|------------| 
 | Average            | 63,7     | 54,2      | 46,8       | 41,8       | 38,0       | 34,9       | 33,5       | 
 | Preheated average  | 73,6     | 61,6      | 51,4       | 45,8       | 40,3       | 36,6       | 34,0       | 
