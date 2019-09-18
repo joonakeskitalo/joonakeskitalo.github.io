@@ -31,26 +31,3 @@ To add your own pages, just edit the `index.html` file and add your own links. F
 ```
 <li><a class="button" href="UrlHere">NameHere</a></li>
 ```
-
-___
-
-**Parse Chrome's Bookmarks.html file into this template**  
-Export bookmarks from Chrome into the same folder as the script below and run the script. You can also just copy, paste & run it straight in your shell client.
-
-```
-#!/usr/bin/env bash
-
-cat bookmarks.html | \
-sed -e '1,6d' | \
-sed -e 's/ICON=.*"//' | \
-sed -e 's/ADD_DATE=.*"//' | \
-awk '{gsub("<DT>","");print}' | \
-awk '{gsub("</DT>","");print}' | \
-awk '{gsub("<DL>","");print}' | \
-awk '{gsub("</DL>","");print}' | \
-awk '{gsub("<p>","");print}' | \
-awk '{gsub("<A","<li><a class=\"button\"");print}' | \
-awk '{gsub("</A>","</a></li>");print}' | \
-sed 's/^[[:space:]]*//' | \
-awk NF > out.txt
-```
