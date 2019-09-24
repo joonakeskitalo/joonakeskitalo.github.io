@@ -55,4 +55,3 @@ ___
 *   Twitter: [https://twitter.com/joonikko](https://twitter.com/joonikko)
 *   Github profile: [https://github.com/joonakeskitalo](https://github.com/joonakeskitalo)
 *   Instagram: [http://instagram.com/joonikko](http://instagram.com/joonikko)
-*   Tumblr: [https://joonikko.tumblr.com/](https://joonikko.tumblr.com/)
