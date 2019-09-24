@@ -54,6 +54,5 @@ ___
 *   LinkedIn: [https://www.linkedin.com/in/joona-keskitalo/](https://www.linkedin.com/in/joona-keskitalo/)
 *   Twitter: [https://twitter.com/joonikko](https://twitter.com/joonikko)
 *   Github profile: [https://github.com/joonakeskitalo](https://github.com/joonakeskitalo)
-*   Github page: [https://joonakeskitalo.github.io](https://joonakeskitalo.github.io)
 *   Instagram: [http://instagram.com/joonikko](http://instagram.com/joonikko)
 *   Tumblr: [https://joonikko.tumblr.com/](https://joonikko.tumblr.com/)
