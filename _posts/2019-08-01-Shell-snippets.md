@@ -71,6 +71,13 @@ done
 ```
 <br/>
 
+Open found files in a an application (macOS)
+
+```sh
+find . -type f -print0 | xargs -0 open -a Fileloupe
+```
+<br/>
+
 Set iTerm2 tab name
 
 ```sh
@@ -181,6 +188,9 @@ f() {
 }
 
 ```
+
+
+
 <br/>
 Convert gifs to h264 mp4
 
