@@ -16,8 +16,7 @@ ___
 **Oulu University of Applied Sciences**  
 2016-2020 
 Degree in Information Technology (B.Eng)  
-[Preview](https://www.oamk.fi/c5/en/studies-and-applying/bachelors-degrees-english/beng-information-technology-2/) & 
-[Curriculum](https://www.oamk.fi/en/studies-and-applying/bachelors-degrees-english/beng-information-technology-2/full-time/)
+
 
 **Politecnico di Torino**  
 Fall 2018 Erasmus Exchange  
