@@ -2,7 +2,7 @@
   Objects > Grid
 \*------------------------------------*/
 
-$grid-width: 725px;
+$grid-width: 785px;
 $grid-gutter: $base-spacing-unit;
 
 .o-grid {
@@ -28,6 +28,7 @@ $grid-gutter: $base-spacing-unit;
   float: left;
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
+  width: 100%;
 
   &--1-4-s {
     width: percentage(1 / 4);
