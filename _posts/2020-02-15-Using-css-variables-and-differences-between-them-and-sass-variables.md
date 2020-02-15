@@ -38,7 +38,9 @@ Using plain CSS variables has the benefit of being able to reassing values with 
 }
 
 @media screen and (min-width: 1500px) {
-	--font-size: 13pt;
+    :root {
+        --font-size: 13pt;
+    }
 }
 ```
 
