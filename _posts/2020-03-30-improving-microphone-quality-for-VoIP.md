@@ -2,8 +2,9 @@
 layout: post
 title: "Improving microphone quality for VoIP"
 featured: false
-image: '/images/posts/2020-03-30_1.jpg'
 ---
+
+![]({{site.baseurl}}/images/posts/2020-03-30_1.jpg)
 
 Since the amount of remote work and remote meetings has increased, having good quality microphone and headphones is even more important for yourself and especially for the other people listening to you.
 
@@ -15,7 +16,7 @@ Audio devices don't get old quickly, so investing into having one at any point i
 
 <br/>
 
-**Other things**
+**Other things:**
 
 - Use push-to-talk when available (especially in large attendance confrence calls).
 - Check the audio levels of your microphone: normal speaking volume should not clip.
