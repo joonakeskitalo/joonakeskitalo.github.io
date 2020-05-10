@@ -32,7 +32,7 @@ Example of Markdown syntax:
 <br/>
 
 **Editing Markdown files** <br/>
-Markdown files can be edited with any text editor and most modern code text editors support the format with additional features such as live output previewing. Markdown specific editors are usually made for longform writing and offer typewriter-like modes, syntax highlighting for text and file management tools.
+Markdown files can be edited with any text editor and most modern code text editors support the format with additional features such as live output previewing. Markdown specific editors are usually made for longform writing and offer typewriter-like modes, syntax highlighting for text and file management tools. [Markdown Preprocessor](https://github.com/jreese/markdown-pp) can be used to merge files in a larger project.
 
 ![Screenshot of different editors]({{site.baseurl}}/images/posts/2020-05-09_scr.png)
 
