@@ -24,8 +24,8 @@ Example of Markdown syntax:
 #### Benefits of using a plain text format for writing
 
 -   Every device can open & read it
--   Markdown is possible to read even without formatting
--   Version control is easy
+-   Markdown is possible to read as is without a preview
+-   Version control & file management is easy
 -   Format is not locked down to a specific editor
 -   Efficient usage of storage space
 
