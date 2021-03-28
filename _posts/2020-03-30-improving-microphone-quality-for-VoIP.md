@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Improving microphone quality for VoIP"
-featured: false
+featured: true
+image: '/images/posts/2020-03-30_1.jpg'
 ---
 
 ![]({{site.baseurl}}/images/posts/2020-03-30_1.jpg)

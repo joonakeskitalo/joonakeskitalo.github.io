@@ -34,8 +34,12 @@ During these years of being a summer trainee during high school, I took part in 
 Computer repair, installation and deployment. Sales and support. Network installations and support.
 
 **Buutti Oy**<br/>
-**Fall 2019 - Current**<br/>
-Software development trainee & currently junior software developer. Currently using React, TypeScript, JavaScript, Angular (v2) and C#.
+**Fall 2019 - Fall 2020**<br/>
+Software development trainee & junior software developer. Currently using React, TypeScript, JavaScript, Angular (v2) and C#.
+
+**Sebitti Oy**<br/>
+**Fall 2020 - Current**<br/>
+Junior software developer. TypeScript, C#, ASP.NET Core, ASP.NET, Vue & Angular.
 
 ---
 
