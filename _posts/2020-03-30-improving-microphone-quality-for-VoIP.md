@@ -5,8 +5,6 @@ featured: true
 image: '/images/posts/2020-03-30_1.jpg'
 ---
 
-![]({{site.baseurl}}/images/posts/2020-03-30_1.jpg)
-
 Since the amount of remote work and remote meetings has increased, having good quality microphone and headphones is even more important for yourself and especially for the other people listening to you.
 
 **Use a headset or a dedicated microphone with headphones** instead of the built-in microphone in your device. For external microphones, you can either get an XLR microphone with a dedicated audio interface or a USB-connected microphone that has everything built-in. For most people the USB microphone will be enough and simpler with a plug-&-play setup. 
