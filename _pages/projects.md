@@ -5,6 +5,23 @@ title: Projects
 
 <br/>
 
+## UI & UX Designs
+
+Location based recruitment application:
+
+![]({{site.baseurl}}/images/pages/ui_example_001.png)
+![]({{site.baseurl}}/images/pages/ui_example_002.png)
+
+Game streaming service web UI we made in UI design course at University:
+
+![]({{site.baseurl}}/images/pages/ui_example_003.png)
+
+Chat application:
+
+![]({{site.baseurl}}/images/pages/ui_example_004.png)
+
+<br/>
+
 ## Raspberry Pi based thermal sensor
 
 During 2018 I made a Raspberry Pi based thermal sensor for logging solar panel & ambient air temperature for research if the temperature absorbed by the panels could be used for other uses, such as heating water by connecting a water loop to the backside of the panel. The panels were ~20°C above ambient during the day and -2°C during the night.
@@ -14,7 +31,6 @@ During 2018 I made a Raspberry Pi based thermal sensor for logging solar panel &
 The sensors used were basic contact based DS18B20 and couple IR based thermal sensors that measured in the front of the sensor and the ambient temperature around the sensor.
 
 ![Last minute change]({{site.baseurl}}/images/pages/raspi_change.jpg) *Last minute changes*
-
 
 <br/>
 
