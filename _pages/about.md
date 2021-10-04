@@ -39,7 +39,7 @@ Software development trainee & junior software developer. Currently using React,
 
 **Sebitti Oy**<br/>
 **Fall 2020 - Current**<br/>
-Junior software developer. TypeScript, C#, ASP.NET Core, ASP.NET, Vue & Angular.
+Software developer. TypeScript, C#, ASP.NET Core, ASP.NET, Vue & Angular.
 
 ---
 
