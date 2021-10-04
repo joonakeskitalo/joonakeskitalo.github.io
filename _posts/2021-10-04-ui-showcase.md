@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "UI & UX Examples"
-featured: false
+featured: true
 ---
 
-## UI & UX Designs
+Here are some examples of the UI & UX design work I've done.
 
 Location based recruitment application:
 
