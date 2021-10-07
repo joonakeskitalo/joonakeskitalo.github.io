@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./normalize.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>TweetDeck Clone</title>
+    </head>
+
+    <body>
+        <div class="content">
+            <div class="sidebar">
+                <div class="sidebar-item-round"></div>
+                <div class="sidebar-item-round"></div>
+                <div class="sidebar-item">⌘</div>
+                <div class="sidebar-item">⎋</div>
+                <div class="sidebar-item">⇪</div>
+                <div class="sidebar-item">⎔</div>
+                <div class="sidebar-item">☎︎</div>
+            </div>
+            <div class="column-container">
+                <div class="column">
+                    <div class="column-content">
+                        <div class="column-header">
+                            <span>Title</span>
+                            <span class="column-header-gear">⚙</span>
+                        </div>
+                        <div class="column-content-items">
+                            <div class="column-content-item">
+                                <div class="column-content-item-left">
+                                    <div class="img"></div>
+                                </div>
+                                <div class="column-content-item-right">
+                                    <div class="column-content-item-right-header">
+                                        <div>
+                                            <span class="c-title">USERNAME</span>
+                                            <span class="c-athandle">USERHANDLE</span>
+                                        </div>
+                                        <div><span class="c-timestamp">TIMESTAMP</span></div>
+                                    </div>
+                                    <div class="column-content-item-right-content">
+                                        <div class="tweet-content">
+                                            <span class="tweet-content-text"></span>
+                                        </div>
+                                        <div class="tweet-buttons">
+                                            <div class="tweet-button">⌘</div>
+                                            <div class="tweet-button">⎋</div>
+                                            <div class="tweet-button">⇪</div>
+                                            <div class="tweet-button">⎔</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const getRandomInt = (max) => Math.floor(Math.random() * max);
+
+            const userHandleStrings = [
+                "Abutere",
+                "Adipisici",
+                "Aliqua",
+                "Amet",
+                "Ante",
+                "Catilina",
+                "Consectetur",
+                "Dapibus",
+                "Dolor",
+                "Dolore",
+                "Eiusmod",
+                "Elit",
+                "Haerentia",
+                "Historiarum",
+                "Illo",
+                "Immemorabili",
+                "Incidunt",
+                "Integer",
+                "Ipsum",
+                "Labore",
+                "Legem",
+                "Legentibus",
+                "Lorem",
+                "Magna",
+                "Nostra",
+                "Patientia",
+                "Quam",
+                "Quo",
+                "Sancimus",
+                "Tandem",
+                "Temere",
+                "Tempor",
+                "Tempore",
+                "Usque",
+                "Vitiis",
+            ];
+
+            const timeSuffixes = ["s", "m"];
+            const usernameStrings = ["Lorem ipsum", "dolor sit amet", "consectetur adipisici elit", "sed eiusmod tempor", "incidunt ut labore", "et dolore magna aliqua"];
+
+            const contentStrings = [
+                "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+                "Plura mihi bona sunt, inclinet, amari petere vellent. Phasellus laoreet lorem vel dolor tempus vehicula. Nec dubitamus multa iter quae et nos invenerat..",
+                "Quid securi etiam tamquam eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation. Hi omnes lingua, institutis, legibus inter se differunt. ",
+                "Cras mattis iudicium purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient.",
+                "Petierunt uti sibi concilium totius Galliae in diem certam indicere. Qui ipsorum lingua Celtae, nostra Galli appellantur. ",
+                "Praeterea iter est quasdam res quas ex communi. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+                "Sed haec quis possit intrepidus aestimare tellus. Quam diu etiam furor iste tuus nos eludet? Prima luce, cum quibus mons aliud consensu ab eo.",
+                "Tityre, tu patulae recubans sub tegmine fagi dolor.",
+                "Me non paenitet nullum festiviorem excogitasse ad hoc. Quid securi etiam tamquam eu fugiat nulla pariatur. Curabitur blandit tempus ardua ridiculus sed magna. A communi observantia non est recedendum.",
+                "Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Praeterea iter est quasdam res quas ex communi. Fictum, deserunt mollit anim laborum astutumque! Quisque placerat facilisis egestas cillum dolore.",
+            ];
+
+            const duplicateNode = (parentQuerySelector, querySelector, amount) => {
+                let item = document.querySelector(querySelector);
+                for (let i = 0; i < amount; i++) {
+                    document.querySelector(parentQuerySelector).appendChild(item.cloneNode(true));
+                }
+            };
+
+            duplicateNode(".column-content-items", ".column-content-item", 12);
+            duplicateNode(".column-container", ".column", 7);
+
+            document.querySelectorAll(".c-timestamp").forEach((tag) => {
+                const suffix = timeSuffixes[getRandomInt(2)];
+                tag.innerHTML = `${getRandomInt(60)}${suffix}`;
+            });
+
+            document.querySelectorAll(".tweet-content-text").forEach((tag) => (tag.innerHTML = contentStrings[getRandomInt(contentStrings.length)]));
+            document.querySelectorAll(".c-title").forEach((tag) => (tag.innerHTML = usernameStrings[getRandomInt(usernameStrings.length)]));
+            document.querySelectorAll(".c-athandle").forEach((tag) => (tag.innerHTML = `@${userHandleStrings[getRandomInt(userHandleStrings.length)]}`));
+        </script>
+    </body>
+</html>
