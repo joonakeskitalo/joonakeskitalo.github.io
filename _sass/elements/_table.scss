@@ -4,6 +4,7 @@
 
 table {
   width: 100%;
+  font-size: 1rem;
 }
 
 th {
@@ -12,7 +13,7 @@ th {
 }
 
 th, td {
-  border-bottom: 1px solid #F7F7F7;
+  border: 1px solid #CCCCCC;
 }
 
 tr:nth-child(even) {background-color: #F7F7F7;}
