@@ -5,3 +5,4 @@ gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'jekyll-tagging'
 gem 'jekyll-redirect-from'
+gem "webrick", "~> 1.7"
