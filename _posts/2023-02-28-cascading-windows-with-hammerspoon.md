@@ -2,9 +2,8 @@
 layout: post
 title: "Cascading windows with Hammerspoon"
 featured: false
+image: '/images/posts/2023-02-28_hammerspoon_cascading_windows.png'
 ---
-
-![]({{site.baseurl}}/images/posts/2023-02-28_hammerspoon_cascading_windows.png)
 
 Script that gathers all the windows of the currently active application from the screen where the cursor is located, sets them to the first window's size, moves the first window (or last depending if you reverse the array) to the cursor's coordinates and shifts each of the remaining windows by 30px horizontall and vertically creating a cascaded layout.
 
