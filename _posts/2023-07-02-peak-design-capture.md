@@ -15,4 +15,4 @@ Kamera vapautetaan kiinnikkeestä painiketta painamalla ja liu'uttamalla kamera 
 
 Capturen kanssa tuli käytettyä kuvaamiseen kämmenen ympäri menevää PD:n Clutch kiinnitysremmiä, joka voi olla aina kamerassa kiinni ja sitä ei tarvitse irroittaa kolmijalan tai Capturen käytön ajaksi.
 
-Suosittelen mikäli patikoi kameran kanssa paljon, melko kallis hinta ja Clutchin hankinta ei haitta (yhteensä n. 120€)
+Suosittelen mikäli patikoi kameran kanssa paljon, melko kallis hinta ja Clutchin hankinta ei haittaa (yhteensä n. 120€)
