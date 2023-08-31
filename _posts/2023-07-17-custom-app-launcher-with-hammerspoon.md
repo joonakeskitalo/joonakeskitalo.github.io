@@ -19,9 +19,8 @@ With the `chooser` interactive tool in Hammerspoon, you can search and choose fr
 
 Example implementation:
 
-````{% raw %}
+```{% raw %}
 hs.hotkey.bind({"rightalt"}, "-", function()
-
     local choices = {{
         text = "System Settings",
         subText = "System preferences",
@@ -88,9 +87,43 @@ end)
 Since the `chooser` only supports basic Lua types, I had to just name the keys and act on them with if/else the callback function. Would be nice to be able to pass a function, but if the list is not too large, it's fine and works.
 
 <br />
+
+This can also be used for other custom functions, such as menu items of an application. My common usecase is to list and show all browser profiles I have (work, clients, personal etc.) and it's really convenient to open/change browser window to specific profile just by pressing F1 and typing 1-3 letters of the profile name.
+
+```{% raw %}
+local chromeProfileChoices = {
+    { text = "Profile: Browse", menuItem =  {"Profiles", "Browse"} },
+    { text = "Profile: Personal", menuItem = {"Profiles", "Personal"} },
+    { text = "Profile: Social", menuItem = {"Profiles", "Social"} },
+    { text = "Profile: Work", menuItem = {"Profiles", "Work"} },
+    { text = "Profile: Client A", menuItem = {"Profiles", "Client A"} },
+    { text = "Profile: Client B", menuItem = {"Profiles", "Client B"} },
+}
+
+local chromeProfileChooser = hs.chooser.new(function(choice)
+    if choice ~= nil then
+        if choice.menuItem ~= nil then
+            local activeApp = hs.appfinder.appFromName("Google Chrome")
+            activeApp:selectMenuItem(choice.menuItem)
+        end
+    end
+end)
+
+chromeProfileChooser:width(25)
+chromeProfileChooser:rows(15)
+chromeProfileChooser:placeholderText("Choose profile")
+    :searchSubText(true)
+    :choices(chromeProfileChoices)
+
+chromeHotkeys:bind({}, "F1", function()
+    chromeProfileChooser:query("")
+    chromeProfileChooser:show()
+end)
+{% endraw %}```
+
+<br />
 **Links:**
 
 - [Hammerspoon](https://www.hammerspoon.org/)
 - [Hammerspoon docs](https://www.hammerspoon.org/docs/index.html)
 - [Hammerspoon docs: hs.chooser](https://www.hammerspoon.org/docs/hs.chooser.html)
-
