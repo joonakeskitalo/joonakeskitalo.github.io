@@ -1,6 +1,6 @@
 # Joona's blog and personal page
 
-Uses [Github Pages](https://pages.github.com/) & thus [Jekyll](https://jekyllrb.com/)
+Uses [Github Pages](https://pages.github.com/) & thus [Jekyll](https://jekyllrb.com/). View at [https://joonakeskitalo.github.io/](https://joonakeskitalo.github.io/)
 
 ## Running
 
