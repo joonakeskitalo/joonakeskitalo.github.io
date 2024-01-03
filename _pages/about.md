@@ -6,6 +6,13 @@ title: About Me
 Hello!<br/>
 Welcome to my personal site and this page is a short description of me, my educational background and work experience.
 
+- [LinkedIn](https://www.linkedin.com/in/joona-keskitalo/)
+- [Mastodon](https://mastodon.social/@joonikko)
+- [Threads](https://www.threads.net/@joonikko)
+- [Twitter](https://twitter.com/joonikko)
+- [Github](https://github.com/joonakeskitalo)
+- [Instagram](http://instagram.com/joonikko)
+
 ---
 
 ### Work Experience
@@ -49,18 +56,11 @@ Erasmus+ Exchange in Politecnico di Torino where I studied algorithms and progra
 
 ### Other
 
--   **2012** Barents Youth Film Festival: We made short films in a week to be shown between the actual films of the festival.
--   **2017** Took part in Junction, a hackathon event held in Espoo.
--   **2018** 3rd place in [Oulu 3D Sensor Gamejam](https://sensorgamejam.com/) organised by ROHM Semiconductors, Fingershot, Business Oulu, Oulu Game Capital and OAMK. We made a "Walk home" simulator, where a person in a questionable state of soberness tries to walks home, avoid obstacles and tries to hold a cup upright. We used two gyroscopes: one to control the player and one two control the hand holding the cup.
--   **2018** [OTE Ry](https://www.otery.net/) International representative. Helped plan, coordinate and fulfill the arrival process of exchange & degree students with OAMK.
+- **2012** Barents Youth Film Festival: We made short films in a week to be shown between the actual films of the festival.
+- **2017** Took part in Junction, a hackathon event held in Espoo.
+- **2018** 3rd place in [Oulu 3D Sensor Gamejam](https://sensorgamejam.com/) organised by ROHM Semiconductors, Fingershot, Business Oulu, Oulu Game Capital and OAMK. We made a "Walk home" simulator, where a person in a questionable state of soberness tries to walks home, avoid obstacles and tries to hold a cup upright. We used two gyroscopes: one to control the player and one two control the hand holding the cup.
+- **2018** [OTE Ry](https://www.otery.net/) International representative. Helped plan, coordinate and fulfill the arrival process of exchange & degree students with OAMK.
 
 [You can view some of my projects here]({{site.baseurl}}/projects)
 
 <img src="{{site.baseurl}}/images/pages/profile.jpg">
-
-### More:
-
--   LinkedIn: [https://www.linkedin.com/in/joona-keskitalo/](https://www.linkedin.com/in/joona-keskitalo/)
--   Twitter: [https://twitter.com/joonikko](https://twitter.com/joonikko)
--   Github profile: [https://github.com/joonakeskitalo](https://github.com/joonakeskitalo)
--   Instagram: [http://instagram.com/joonikko](http://instagram.com/joonikko)
