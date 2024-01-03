@@ -8,9 +8,18 @@
  * csswizardry.com/2012/06/single-direction-margin-declarations
  */
 address,
-h1, h2, h3, h4, h5, h6,
-blockquote, p, pre,
-dl, ol, ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+p,
+pre,
+dl,
+ol,
+ul,
 figure,
 hr,
 table,
@@ -21,7 +30,9 @@ fieldset {
 /**
  * Consistent indentation for lists.
  */
-dd, ol, ul {
+dd,
+ol,
+ul {
   list-style-position: inside;
   margin-left: $base-spacing-unit;
 }

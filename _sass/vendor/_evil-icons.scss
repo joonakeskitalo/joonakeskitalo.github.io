@@ -4,15 +4,15 @@
 
 @-webkit-keyframes spin {
   100% {
-    -webkit-transform:rotate(360deg);
-            transform:rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spin {
   100% {
-    -webkit-transform:rotate(360deg);
-            transform:rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -66,12 +66,12 @@
 .icon--ei-spinner .icon__spinner,
 .icon--ei-spinner-2 .icon__spinner {
   -webkit-animation: spin 1s steps(12) infinite;
-          animation: spin 1s steps(12) infinite;
+  animation: spin 1s steps(12) infinite;
 }
 
 .icon--ei-spinner-3 .icon__spinner {
   -webkit-animation: spin 1.5s linear infinite;
-          animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 
 .icon--ei-sc-facebook {

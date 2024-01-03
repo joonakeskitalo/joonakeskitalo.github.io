@@ -2,28 +2,21 @@
 //  Settings > Type
 // *----------------------------------*/
 
-$font-base:
-  -apple-system,
-  BlinkMacSystemFont,
-  Arial,
-  Helvetica,
-  sans-serif,
-  'Apple Color Emoji',
-  'Segoe UI Emoji',
-  'Segoe UI Symbol';
-$font-monospace:  Courier, monospace;
+$font-base: -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-monospace: Courier, monospace;
 
-$font-size-base:   18px;
+$font-size-base: 18px;
 $font-size-medium: 16px;
-$font-size-small:  14px;
-$font-size-tiny:   12px;
+$font-size-small: 14px;
+$font-size-tiny: 12px;
 
-$font-weight-light:   300;
+$font-weight-light: 300;
 $font-weight-regular: 400;
-$font-weight-bold:    600;
-$font-weight-bolder:  800;
+$font-weight-bold: 600;
+$font-weight-bolder: 800;
 
-$line-height-base:   round($font-size-base   *  1.7);
+$line-height-base: round($font-size-base * 1.7);
 $line-height-medium: round($font-size-medium * 1.55);
-$line-height-small:  round($font-size-small  * 1.55);
-$line-height-tiny:   round($font-size-tiny   * 1.55);
+$line-height-small: round($font-size-small * 1.55);
+$line-height-tiny: round($font-size-tiny * 1.55);

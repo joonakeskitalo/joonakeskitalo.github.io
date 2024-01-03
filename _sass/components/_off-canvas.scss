@@ -23,15 +23,19 @@ $off-canvas-width: 300px;
 
     &:before,
     &:after {
-      content: '';
+      content: "";
       display: block;
       height: 100%;
       background-color: inherit;
       transition: $global-transition;
     }
 
-    &:before { transform: translateY(16px) }
-    &:after { transform: translateY(7px); }
+    &:before {
+      transform: translateY(16px);
+    }
+    &:after {
+      transform: translateY(7px);
+    }
 
     .c-off-canvas-toggle--close & {
       height: 2px;
@@ -77,17 +81,18 @@ body {
   right: 0;
   width: $off-canvas-width;
   height: 100%;
-  padding: ($base-spacing-unit + half($base-spacing-unit)) double($base-spacing-unit);
+  padding: ($base-spacing-unit + half($base-spacing-unit))
+    double($base-spacing-unit);
   background-color: $bg-color-white;
   transform: translate3d($off-canvas-width, 0, 0);
 }
 
 .c-off-canvas-container {
   transform: translate3d(0, 0, 0);
-  transition: transform $global-transition cubic-bezier(.16, .68, .43, .99);
+  transition: transform $global-transition cubic-bezier(0.16, 0.68, 0.43, 0.99);
 
   &.is-active {
-    transform: translate3d(- $off-canvas-width, 0, 0);
+    transform: translate3d(-$off-canvas-width, 0, 0);
 
     &:after {
       position: fixed;
@@ -95,9 +100,8 @@ body {
       right: 0;
       bottom: 0;
       left: 0;
-      content: '';
-      background-color: rgba(0, 0, 0, .2);
+      content: "";
+      background-color: rgba(0, 0, 0, 0.2);
     }
   }
 }
-

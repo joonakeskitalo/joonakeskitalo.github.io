@@ -12,8 +12,11 @@ th {
   text-align: left;
 }
 
-th, td {
-  border: 1px solid #CCCCCC;
+th,
+td {
+  border: 1px solid #cccccc;
 }
 
-tr:nth-child(even) {background-color: #F7F7F7;}
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}

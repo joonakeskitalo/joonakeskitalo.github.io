@@ -17,24 +17,23 @@
     letter-spacing: 2px;
 
     &--prev {
-      left: - $base-spacing-unit;
+      left: -$base-spacing-unit;
     }
 
     &--next {
-      right: - $base-spacing-unit;
+      right: -$base-spacing-unit;
     }
-
   }
 
   &__icon {
     vertical-align: text-top;
 
     &--prev {
-      left: - half($base-spacing-unit);
+      left: -half($base-spacing-unit);
     }
 
     &--next {
-      right: - half($base-spacing-unit);
+      right: -half($base-spacing-unit);
     }
   }
 }
