@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'bundler'
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'jekyll-tagging'
-gem 'jekyll-redirect-from'
+gem "github-pages"
 gem "webrick", "~> 1.7"
