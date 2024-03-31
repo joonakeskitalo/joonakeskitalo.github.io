@@ -17,8 +17,12 @@ Welcome to my personal site and this page is a short description of me, my educa
 
 ### Work Experience
 
+**SOK**<br/>
+**Winter 2024 - Current**<br/>
+Senior software developer & some design things. React Native, React, TypeScript & AWS.
+
 **Columbia Road Oy**<br/>
-**Spring 2022 - Current**<br/>
+**Spring 2022 - Winter 2024**<br/>
 Software development consultant. Node, TypeScript, Azure.
 
 **Sebitti Oy**<br/>
