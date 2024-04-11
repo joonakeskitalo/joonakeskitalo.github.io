@@ -45,6 +45,8 @@ copyElementToClipboard(preview);
 
 Now the clipboard will contain the rich text formatted contents of the preview with no styling of the elements, so the default style of the place you're pasting the content will be used.
 
+**Edit:** I've made a simple web app with the MD to RTF functionality: [markdown-to-rtf](https://joonakeskitalo.github.io/markdown-to-rtf/)
+
 <br/>
 
 **Links**
