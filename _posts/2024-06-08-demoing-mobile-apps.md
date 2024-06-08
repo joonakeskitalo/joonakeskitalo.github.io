@@ -2,6 +2,7 @@
 layout: post
 title: "Demoing mobile apps"
 featured: false
+image: "/images/posts/IMG_2024-06-08_demo_setup.jpg"
 ---
 
 At one point I was trying to figure out a good way to do a quick, smooth and hassle free demo of a mobile app feature. The simple way is to share the screen and show the feature from a simulator, but it lacks the context of the person and the person's hands actually using the device and app and if the feature has a hardware or a physical context, that is lost too.
@@ -12,9 +13,9 @@ In this post I'll go through how to setup OBS with multiple scenes, capturing th
 
 - [OBS Studio](https://obsproject.com/)
 - Real device (I used iOS) & cable
-- ~15 minutes of time to set this up
-- 1 external camera (+1 built-in laptop webcam if you want to show your face). Could be a webcam because it's mainly to show the user's hands and the device.
-- Some sort of camera stand: tripod or a desk mount. Few options: [Ulanzi LS01](https://www.scandinavianphoto.fi/ulanzi/poytajalusta--puristin--kuulapaa-1050459), [Ulanzi LS08](https://www.scandinavianphoto.fi/ulanzi/ls08-flexible-arm-professional-live-streaming-stand-equipment-1054317)
+- 1 external camera (+1 built-in laptop webcam if you want to show your face). Could be a webcam, another phone or a camera with a USB capture card
+- Some sort of camera stand: tripod or a desk mount. Few options: [Ulanzi LS01](https://www.scandinavianphoto.fi/ulanzi/poytajalusta--puristin--kuulapaa-1050459), [Ulanzi LS08](https://www.scandinavianphoto.fi/ulanzi/ls08-flexible-arm-professional-live-streaming-stand-equipment-1054317) + [Ulanzi ST-02S](https://www.scandinavianphoto.fi/ulanzi/smartphone-holder-st-02s-cold-shoe-metal-1061889) phone holder
+- Optional: [Scrpy](https://github.com/Genymobile/scrcpy) to capture Android device screen
 - Optional: [DeskPad](https://github.com/Stengo/DeskPad): virtual display for macOS
 
 ### Software
