@@ -160,10 +160,13 @@ Feature which allows moving and resizing windows just by holding down alt (or ot
 hs.hotkey.bind({ "alt" }, "s", function()
     local win = hs.window.focusedWindow()
     local f = win:frame()
-    if (f.w == 1000 and f.h == 1100) then
-        setWindowSize(1000, 800)
+    local first = { w = 1300, h = 1700 }
+    local second = { w = 1600, h = 1900 }
+
+    if (f.w == first.w and f.h == first.h) then
+        setWindowSize(second.w, second.h)
     else
-        setWindowSize(1000, 1100)
+        setWindowSize(first.w, first.h)
     end
 end)
 ```
