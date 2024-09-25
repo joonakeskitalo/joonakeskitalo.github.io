@@ -279,3 +279,57 @@ customChooser:placeholderText("Choose app"):searchSubText(true):choices(choices)
 - **CLI**
     - [nnn](https://github.com/jarun/nnn): file browser & manager, which has completely replaced usage of `cd` for me. The [wiki](https://github.com/jarun/nnn/wiki) is quite extensive and remember to configure [cd-on-quit](https://github.com/jarun/nnn/wiki/Basic-use-cases#configure-cd-on-quit).
     - [lazygit](https://github.com/jesseduffield/lazygit) terminal Git client, with really good UI. Has made using Git actually comfortable and fast for me.
+
+<br/><br/>
+
+## Configuring macOS
+
+### Finder
+
+- Settings -> Advanced -> Show all filename extensions
+- Settings -> Advanced -> *When performing a search: search the current folder*
+- Settings -> Sidebar -> Add user and external disks to the sidebar
+- View -> Show path bar
+- View -> Show status bar
+
+<br/>
+
+### Settings
+
+- Network -> Firewall -> enable
+- Keyboard -> *Key repeat rate* to fast
+- Keyboard -> *Delay until repeat* to short
+- Keyboard -> Keyboard shortcuts -> Function keys -> *Use F1, F2, etc. keys as standard function keys*
+- Keyboard -> Keyboard shortcuts -> Keyboard -> Update the *Move focus to next window* -hotkey since it's hard to access on ISO nordic layout by default
+- Keyboard -> Keyboard shortcuts -> Mission control -> *Mission control* to `opt+tab`
+Keyboard -> Keyboard shortcuts -> Mission control -> *Application windows* to `shift+opt+tab`
+- Mouse -> Tracking speed to slowest and adjust mouse DPI. This seems to have none or at least very little mouse acceleration
+
+<br/>
+
+### Other
+
+**[Remove delay from Dock autohide](https://macos-defaults.com/dock/autohide-delay.html)**
+
+```
+defaults write com.apple.dock "autohide-delay" -float "0" && killall Dock
+```
+<br/>
+Reset to default:
+```
+defaults delete com.apple.dock "autohide-delay" && killall Dock
+```
+
+<br/>
+
+**[Set the menubar item spacing](https://apple.stackexchange.com/questions/406316/can-the-spacing-of-menu-bar-apps-be-modified-in-macos-big-sur-and-later/465674#465674)**
+```
+defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6
+defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 12
+```
+<br/>
+Reset back to defaults:
+```
+defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
+defaults -currentHost delete -globalDomain NSStatusItemSpacing
+```
