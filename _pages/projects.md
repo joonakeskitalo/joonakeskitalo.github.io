@@ -5,6 +5,40 @@ title: Projects
 
 <br/>
 
+## [Kämpät.com](https://kämpät.com/)
+
+![Screenshot of Kämpät.com tool](/images/posts/IMG_2024-06-30_002.png)
+
+Tool for easing the process of buying an apartment in Finland.
+
+- Add apartment and house listings by pasting Oikotie.fi links
+- Add your own comments, such as notes from the apartments, viewing times and realtor details
+- Share list of apartments with a link
+- Calculate cost estimates for loan
+    - You can put your own finances & bank loan details to easily get estimates for all listings you've added
+    - Default percentage or custom downpayment amount
+    - Calculates the % of income spent on living costs
+    - Gives a euro per square metre per month estimate that is comparable between apartments regardless of size
+- Show square metre price development for the area by postal code
+- Displays most relevant information such as year it was built, square metre price, property ownership, floor number and the amount of apartments in the housing company
+- Listings have links to Google Maps & housing company details
+
+**Links:**
+
+- [Kämpät.com](https://kämpät.com/)
+- [Blog post](https://joonakeskitalo.github.io/2024/06/30/kampat-com-apartment-purchasing-tool/)
+- [Reddit post](https://www.reddit.com/r/Suomi/comments/1blmup6/olen_vapaaaikana_rakentanut_asunnon_ostamisen/)
+
+<br/>
+
+## Autot - easing the car search
+
+![Screenshot of autot](/images/pages/autot.png)
+
+Searching for a car can be difficult and time consuming, but it doesn't need to be. I made a small app for quickly browsing and filtering car models based on certain criteria: make, model, location of the store, battery size, year of manufacturing, different specs, kilometres driven, price range and €/kWh cost. Data was scraped from different car sales sites and Nettiauto.
+
+<br/><br/><br/>
+
 ## UI & UX Designs
 
 Location based recruitment application:
