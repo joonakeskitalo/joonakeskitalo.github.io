@@ -18,7 +18,7 @@ Welcome to my personal site and this page is a short description of me, my educa
 
 **SOK**<br/>
 **Winter 2024 - Current**<br/>
-Senior software developer & some design things. React Native, React, TypeScript & AWS.
+Senior software developer & some design things. React Native, React, TypeScript, OpenSearch & AWS.
 
 **Columbia Road Oy**<br/>
 **Spring 2022 - Winter 2024**<br/>
