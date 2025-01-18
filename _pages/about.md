@@ -9,7 +9,6 @@ Welcome to my personal site and this page is a short description of me, my educa
 - [LinkedIn](https://www.linkedin.com/in/joona-keskitalo/)
 - [Mastodon](https://mastodon.social/@joonikko)
 - [Threads](https://www.threads.net/@joonikko)
-- [Twitter](https://twitter.com/joonikko)
 - [Github](https://github.com/joonakeskitalo)
 - [Instagram](http://instagram.com/joonikko)
 
