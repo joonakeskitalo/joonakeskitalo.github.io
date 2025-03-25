@@ -55,6 +55,8 @@ data:text/html, <html contenteditable>
 
 ### Hotkeys to instantly open and hide apps
 
+Update: [LeaderKey](https://github.com/mikker/LeaderKey.app) is an application made just this idea in mind.
+
 Originally I used [Apptivate](http://www.apptivateapp.com/), but it hasn't been updated in a while, so I've made a [Hammerspoon](https://www.hammerspoon.org/) implementation. A hotkey or a chord of keystrokes is used to instantly open or hide (if active) application. It becomes second nature and one doesn't need to even think about cmd-tab, finding specific icons or windows to activate the app they need.
 
 ```
