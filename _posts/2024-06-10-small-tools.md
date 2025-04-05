@@ -28,3 +28,13 @@ Generate 1D or 2D barcodes in bulk. Runs locally, uses [bwip-js](http://metafloo
 
 - Tool: [ean-qr-generator](https://joonakeskitalo.github.io/ean-qr-generator)
 - [Github repository](https://github.com/joonakeskitalo/ean-qr-generator)
+
+#### [WiFi QR code login generator](https://joonakeskitalo.github.io/wifi-qr-code/)
+
+Tool to automatically create a QR code that can be used for WiFi login.
+
+Generates a code with a following format:
+
+```
+WIFI:T:WPA;S:ssidExample;P:passwordExample;H:;;
+```
