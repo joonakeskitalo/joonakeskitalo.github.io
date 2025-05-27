@@ -123,6 +123,30 @@ Not every app needs a hotkey, but is useful to have in the Dock all the time, wh
 
 <br/><br/>
 
+### Set macOS menu bar item width
+
+> Note: These changes can also be applied with Sindre Sorhus' app [*Menu Bar Spacing*](https://sindresorhus.com/menu-bar-spacing) which has instant feedback for the changes.
+
+Since the introduction of the notch on MacBooks, the amount of space available for menu bar icons is quite limited and the overflowing icons are simply hidden from the user. The solution is to either not have many applications that add icons, use 3rd party tool like [Hidden Bar](https://github.com/dwarvesf/hidden) or [Bartender](https://www.macbartender.com/) or set the item width to smaller with the following command:
+
+```
+defaults -currentHost write -globalDomain NSStatusItemSpacing -int x
+defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int y
+```
+
+Set x and y to your desired values. I've set the `NSStatusItemSpacing` to 8 and `NSStatusItemSelectionPadding` to 8. The changes require you to log out and log back in. 
+
+To reset to defaults:
+
+```
+defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
+defaults -currentHost delete -globalDomain NSStatusItemSpacing
+```
+
+Source: [*AuroraWright* on Reddit](https://www.reddit.com/r/MacOS/comments/16lpfg5/hidden_preference_to_alter_the_menubar_spacing/) & [*user302097* in Apple StackExchange](https://apple.stackexchange.com/questions/406316/can-the-spacing-of-menu-bar-apps-be-modified-in-macos-big-sur-and-later/465674#465674)
+
+<br/><br/>
+
 ### CLI aliases
 
 Making a short alias even for a short & simple command can make the terminal experience much nicer. Some examples that I have:
@@ -318,20 +342,7 @@ defaults write com.apple.dock "autohide-delay" -float "0" && killall Dock
 ```
 <br/>
 Reset to default:
+
 ```
 defaults delete com.apple.dock "autohide-delay" && killall Dock
-```
-
-<br/>
-
-**[Set the menubar item spacing](https://apple.stackexchange.com/questions/406316/can-the-spacing-of-menu-bar-apps-be-modified-in-macos-big-sur-and-later/465674#465674)**
-```
-defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6
-defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 12
-```
-<br/>
-Reset back to defaults:
-```
-defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
-defaults -currentHost delete -globalDomain NSStatusItemSpacing
 ```
