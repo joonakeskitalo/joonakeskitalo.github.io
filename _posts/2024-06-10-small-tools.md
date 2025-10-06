@@ -15,6 +15,28 @@ Convert Markdown to RTF to be used with tools that don't have Markdown support o
 - [Github repository](https://github.com/joonakeskitalo/markdown-to-rtf)
 - [Previous post](https://joonakeskitalo.github.io/2023/09/06/markdown-to-rtf-for-use-in-slack-teams-confluence/)
 
+<br/><br/>
+
+#### [Daily meeting notes template generator](https://joonakeskitalo.github.io/daily/)
+
+Creates a daily template with current date, each team members name in a randomised order and allows you to copy the written Markdown text as formatted rich text.
+
+Example:
+
+```
+
+### 2025-10-06 daily
+
+**Elias**
+-
+
+**Aino**
+-
+
+**Olivia**
+-
+```
+
 #### [JS Eval scriptpad](https://joonakeskitalo.github.io/eval-pad)
 
 Write small snippets of JS and instantly run them with ctrl+space hotkey. Allows for text input and output, so you can quickly reformat JSON, parse CSV etc.
@@ -38,3 +60,18 @@ Generates a code with a following format:
 ```
 WIFI:T:WPA;S:ssidExample;P:passwordExample;H:;;
 ```
+
+<br/><br/>
+
+#### [Timer & alarm](https://github.com/joonakeskitalo/timer)
+
+Timer app that supports setting a specific time for alarm and timer functionality. Useful for pomodoro or just as a reminder that you need to start moving 5 minutes before a meeting etc. Made as a `index.html` web app and wrapped to a small desktop application with Tauri.
+
+Features.
+- Set alarm x minutes and hours from now
+- Set alarm to specific time
+- Audible and visual cue for alarm ending
+- Quick buttons for starting 2,5,10,15… minute timer
+- Text input for a note (what meeting is starting for example)
+- Large and mini window size
+- Keep window always on top
