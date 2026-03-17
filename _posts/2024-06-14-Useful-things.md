@@ -67,7 +67,12 @@ function launchOrHideBundle(bundleName)
     if (bundle == bundleName) then
         currentlyActive:hide()
     else
-        hs.application.launchOrFocusByBundleID(bundleName)
+        local isOpen = hs.application.launchOrFocusByBundleID(bundleName)
+
+        if (isOpen == true) then
+            local app = hs.application.get(bundleName)
+            app:activate(true)
+        end
     end
 end
 
@@ -78,9 +83,12 @@ function launchOrHide(appname)
     if (name == appname) then
         currentlyActive:hide()
     else
-        hs.application.launchOrFocus(appname)
-        local c = hs.application.get(appname)
-        c:activate(true)
+        local isOpen = hs.application.launchOrFocusByBundleID(bundleName)
+
+        if (isOpen == true) then
+            local app = hs.application.get(bundleName)
+            app:activate(true)
+        end
     end
 end
 ```
